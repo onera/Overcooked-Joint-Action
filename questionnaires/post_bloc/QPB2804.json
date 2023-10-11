@@ -1,0 +1,143 @@
+{
+    "Q1":{
+        "text" : "The human-robot team worked fluently together.",
+        "cat"  : "HR-fluency",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q2":{
+        "text" : "The robot contributed to the fluency of the interaction.",
+        "cat"  : "HR-fluency",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q3":{
+        "text" : "I had to carry the weight to make the human-robot team better.",
+        "cat"  : "Robot contribution",
+        "reversed" : "True",
+        "steps" : [4]
+    },
+    "Q4":{
+        "text" : "The robot contributed equally to the team performance.",
+        "cat"  : "Robot contribution",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q5":{
+        "text" : "I was the most important team member on the team.",
+        "cat"  : "Robot contribution",
+        "reversed" : "True",
+        "steps" : [4]
+    },
+    "Q6":{
+        "text" : "The robot was the most important team member on the team.",
+        "cat"  : "Robot contribution",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q7":{
+        "text" : "I trusted the robot to do the right thing at the right time.",
+        "cat"  : "Trust",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q8":{
+        "text" : "I feel uncomfortable with the robot",
+        "cat"  : "Working Alliance Index",
+        "reversed" : "True",
+        "steps" : [4]
+    },
+    "Q9":{
+        "text" : "The robot and I understand each other.",
+        "cat"  : "Working Alliance Index",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q10":{
+        "text" : "I am confident in the robot’s ability to help me.",
+        "cat"  : "Working Alliance Index",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q11":{
+        "text" : "The robot perceives accurately what my goals are.",
+        "cat"  : "Working Alliance Index",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q12":{
+        "text" : "The robot does not understand what I am trying to accomplish.",
+        "cat"  : "Working Alliance Index",
+        "reversed" : "True",
+        "steps" : [4]
+    },
+    "Q13":{
+        "text" : "The robot and I are working towards mutually agreed upon goals.",
+        "cat"  : "Working Alliance Index",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q14":{
+        "text" : "The robot’s performance was an important contribution to the success of the team.",
+        "cat"  : "Individual Measures",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q15":{
+        "text" : "It felt like the robot was committed to the success of the team.",
+        "cat"  : "Individual Measures",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q16":{
+        "text" : "I was committed to the success of the team.",
+        "cat"  : "Individual Measures",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q17":{
+        "text" : "The human-robot team did well on the task.",
+        "cat"  : "Additional Indicators",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q18":{
+        "text" : "The robot performed well as part of the team.",
+        "cat"  : "Additional Indicators",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q19":{
+        "text" : "The human-robot team felt well-tuned.",
+        "cat"  : "Additional Indicators",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q20":{
+        "text" : "The robot did its part successfully.",
+        "cat"  : "Additional Indicators",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q21":{
+        "text" : "The human-robot team improved over time during the tries in this condition",
+        "cat"  : "Improvement",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q22":{
+        "text" : "The human-robot team’s fluency improved over time. during the tries in this condition",
+        "cat"  : "Improvement",
+        "reversed" : "False",
+        "steps" : [4]
+    },
+    "Q23":{
+        "text" : "The robot’s performance improved over time.",
+        "cat"  : "Improvement",
+        "reversed" : "False",
+        "steps" : [4]
+    }
+    
+
+
+}

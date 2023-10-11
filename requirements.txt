@@ -1,0 +1,15 @@
+Flask
+Flask-SocketIO
+eventlet
+matplotlib
+requests
+numpy
+gevent
+ipython
+ipywidgets
+Werkzeug
+flask-session
+flask-login
+flask-sqlalchemy
+scipy
+tqdm

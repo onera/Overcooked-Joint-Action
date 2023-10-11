@@ -1,0 +1,173 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="">
+  <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+  <meta name="generator" content="Hugo 0.84.0">
+  <title>Overcooked experiment</title>
+
+  <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/starter-template/">
+
+
+
+  <!-- Bootstrap core CSS -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+
+  <!-- Favicons -->
+  <link rel="apple-touch-icon" href="/docs/5.0/assets/img/favicons/apple-touch-icon.png" sizes="180x180">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-32x32.png" sizes="32x32" type="image/png">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon-16x16.png" sizes="16x16" type="image/png">
+  <link rel="manifest" href="/docs/5.0/assets/img/favicons/manifest.json">
+  <link rel="mask-icon" href="/docs/5.0/assets/img/favicons/safari-pinned-tab.svg" color="#7952b3">
+  <link rel="icon" href="/docs/5.0/assets/img/favicons/favicon.ico">
+  <meta name="theme-color" content="#7952b3">
+
+
+  <style>
+    .bd-placeholder-img {
+      font-size: 1.125rem;
+      text-anchor: middle;
+      -webkit-user-select: none;
+      -moz-user-select: none;
+      user-select: none;
+    }
+
+    @media (min-width: 768px) {
+      .bd-placeholder-img-lg {
+        font-size: 3.5rem;
+      }
+    }
+  </style>
+
+
+  <!-- Custom styles for this template -->
+  <link href="static/css/starter-template.css" rel="stylesheet">
+</head>
+
+<body>
+
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <img src="static/images/LPL.jpg"
+              class="custom-logo" alt="Laboratoire Parole et Langage" height="90">
+          </div>
+          <div class="col-md">
+            <span class="fs-2">Overcooked Study</span>
+          </div>
+          <div class="col-md">
+            <img src="static/images/ONERA.png" class="custom-logo"
+              alt="ONERA, the French Aerospace Lab", height=90>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <main>
+      <h1> Welcome to Overcooked human - artificial agent cooperation study</h1>
+      <hr class="col-3 col-md-2 mb-5">
+      <h2>Informed Consent form</h2>
+      <h3 class="western" style="margin-bottom: 0.19in">General Information</h3>
+      <p class="text-left"> The aim
+        of this study is to improve cooperative work between humans and artificial (robots...) partners.
+      We appreciate your interest in participating in this online task.
+      You have been invited to participate as you are between 18 and 35 years old. Please read through
+      this information before agreeing to participate (if you wish to) by
+      ticking the ‘I consent’ box below.
+      You may ask any questions before deciding to take part by contacting the
+      researcher (details below).
+      The Principal Researcher is <a href=mailto::{{current_user.config['researcher']['email']}}>{{current_user.config['researcher']['name']}}</a>
+      , PhD student attached to the
+      {{current_user.config['researcher']['institution']}} and the {{current_user.config['supervisor']['institution']}} of {{current_user.config["researcher"]["university"]}}. This
+      project is being completed under the supervision of Pr. {{current_user.config['supervisor']['name']}} ({{current_user.config['supervisor']['institution']}})
+      and Dr. Bruno Berberian (ONERA).
+      You will be asked to
+      play a cooperative game inspired from <a href=https://en.wikipedia.org/wiki/Overcooked>Overcooked</a> . This
+      should take about 60 minutes. No background knowledge is required.
+      The data will improve the scientific knowledge about the content and the format 
+      of the interaction between cooperating human and artificial agents.
+      The anonymised data will be used for validating or unvalidating hypotheses.</p>
+      <h3 class="western" style="margin-bottom: 0.19in">Do I have to take
+        part?</h3>
+      <p class="text-left">No.
+      Please note that participation is voluntary. If you do decide to take
+      part, you may withdraw at any point for any reason before submitting
+      your answers by closing the browser.
+      However, we are only able to reimburse participants
+      who complete all study activities.
+      <h3 class="western" style="margin-bottom: 0.19in">How will my data be
+        used?</h3>
+      We will
+      not collect any data that could directly identify you.
+      The responses you provide will be stored in a password-protected
+      server of the Laboratoire Parole Langage and may be
+      used in  academic publications, conference
+      presentations and reports for external organisations.
+      We would also like your permission to use the data in
+      future studies, and to share the anonymous data with other researchers (e.g. in
+      online databases).
+      The results will be written up for a PhD degree.</p>
+      <!--<h3 class="text-left">Who has reviewed
+        this study?</h3>
+      <p class="text-left">This
+      project has been reviewed by, and received ethics clearance through,
+      a subcommittee of the University of Oxford Central University
+      Research Ethics Committee [reference number].</p>-->
+      <h3 class="text-left">Who do I contact if
+        I have a concern or I wish to complain?</h3>
+      <p class="text-left">If you
+      have a concern about any aspect of this study, please speak to
+      {{current_user.config['researcher']['name']}} (<a href="{{current_user.config['researcher']['email']}}">e-mail</a>) or his
+      supervisor {{current_user.config['supervisor']['name']}} (<a href="{{current_user.config['supervisor']['name']}}">e-mail</a>), and we will do our best
+      to answer your query. We will acknowledge your concern within 10
+      working days and give you an indication of how it will be dealt with.
+      If you remain unhappy or wish to make a formal complaint, please
+      contact the {{current_user.config['researcher']['university']}} ethical committee 
+      who will seek to resolve the matter as soon as possible.</p>
+      <p class="text-left"><b>Please note that you may only participate in this study
+        if you are 18 years old or over.</b></p>
+      <p class="text-left">By ticking <b>"I consent"</b> among the following options, 
+        I acknowledge I have read the information above and agree to participate with 
+        the understanding that the data I submit will be processed accordingly, and I 
+        certify I am over 18 years old </p>
+
+      <form class=text-center method="post" action="instructions">
+        <div class="form-group">
+          <div class="custom-control custom-checkbox">
+            <div class="custom-control custom-radio">
+              <input type="radio" id="consent" name="consentRadio" class="custom-control-input" value="accept" required>
+              <label class="custom-control-label" for="consent">I consent</label>
+            </div>
+            <div class="custom-control custom-radio">
+              <input type="radio" id="notConsent" name="consentRadio" class="custom-control-input" value="reject" required>
+              <label class="custom-control-label" for="notConsent">I reject the use of my data and will not take part to
+                the experiment</label>
+            </div>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </div>
+      </form>
+  </div>
+  </main>
+  <footer class="pt-5 my-5 text-muted border-top">
+  </footer>
+  </div>
+
+
+  <script src="static/js/bootstrap.bundle.min.js"></script>
+
+
+</body>
+
+</html>
+
+
+<body>
+
+
+</body>

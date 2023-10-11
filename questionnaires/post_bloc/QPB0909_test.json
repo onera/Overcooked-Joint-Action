@@ -1,0 +1,223 @@
+{
+    "Q1":{
+        "name" : "Q1",
+        "title" : "The human-robot team worked fluently together.",
+        "cat"  : "HR-fluency",
+        "reversed" : "False",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [0,1,2,3,4]
+    },
+    "Q2":{
+        "name" : "Q2",
+        "title" : "The robot contributed to the fluency of the interaction.",
+        "cat"  : "HR-fluency",
+        "reversed" : "False",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [3]
+    },
+    "Q3":{
+        "name" : "Q3",
+        "title" : "I had to carry the weight to make the human-robot team better.",
+        "cat"  : "Robot contribution",
+        "reversed" : "True",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [3]
+    },
+    "Q4":{
+        "name" : "Q4",
+        "title" : "The robot contributed equally to the team performance.",
+        "cat"  : "Robot contribution",
+        "reversed" : "False",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [3]
+    },
+    "Q5":{
+        "name" : "Q5",
+        "title" : "I was the most important team member on the team.",
+        "cat"  : "Robot contribution",
+        "reversed" : "True",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [3]
+    },
+    "Q6":{
+        "name" : "Q6",
+        "title" : "The robot was the most important team member on the team.",
+        "cat"  : "Robot contribution",
+        "reversed" : "False",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [3]
+    },
+    "Q24":{
+        "name" : "Q24",
+        "title" : "I could see blue squares in trials indicating agent's intentions",
+        "cat"  : "Improvement",
+        "reversed" : "False",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "isRequired": true,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }],
+        "steps" : [3]
+    }
+
+    
+
+
+}

@@ -1,0 +1,663 @@
+{
+    "training": {
+        "0": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "onion"
+                    ]
+                }
+            ],
+            "agent" : "Rational",
+            "layout" : "training"
+        },
+        "1": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "onion"
+                    ]
+                }
+            ],
+            "agent" : "Lazy",
+            "layout" : "training"
+        },
+        "2": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "onion"
+                    ]
+                }
+            ],
+            "agent" : "Greedy",
+            "layout" : "training"
+        }
+        
+    },
+    "1": {
+        "0": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                }
+            ],
+            "agent": "Lazy",
+            "layout": "mlg"
+        },
+        "1": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                }
+            ],
+            "agent": "Greedy",
+            "layout": "mlg90"
+        },
+        "2": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                }
+            ],
+            "agent": "Rational",
+            "layout": "mlg180"
+        },
+        "3": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Lazy",
+            "layout": "mlg270"
+        },
+        "4": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Greedy",
+            "layout": "mlgT"
+        },
+        "5": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Rational",
+            "layout": "mlg90T"
+        },
+        "6": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Lazy",
+            "layout": "mlg180T"
+        },
+        "7": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Greedy",
+            "layout": "mlg270T"
+        },
+        "8": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Rational",
+            "layout": "mlg"
+        }
+    },
+    "2": {
+        "0": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Lazy",
+            "layout": "mlg"
+        },
+        "1": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Greedy",
+            "layout": "mlg270T"
+        },
+        "2": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Rational",
+            "layout": "mlg180T"
+        },
+        "3": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Lazy",
+            "layout": "mlg90T"
+        },
+        "4": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Greedy",
+            "layout": "mlgT"
+        },
+        "5": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Rational",
+            "layout": "mlg270"
+        },
+        "6": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Lazy",
+            "layout": "mlg180"
+        },
+        "7": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Greedy",
+            "layout": "mlg90"
+        },
+        "8": {
+            "all_orders": [
+                {
+                    "ingredients": [
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "tomato",
+                        "tomato"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion"
+                    ]
+                },
+                {
+                    "ingredients": [
+                        "onion",
+                        "onion",
+                        "tomato"
+                    ]
+                }
+            ],
+            "agent": "Rational",
+            "layout": "mlg"
+        }
+    }
+}

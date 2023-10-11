@@ -1,0 +1,22 @@
+{
+    "Q1":{
+        "text" : "How much confident?",
+        "cat"  : "Confidence",
+        "reversed" : "False",
+        "steps" : [2,3,4,5]
+    },
+    "Q2":{
+        "text" : "How much control ?",
+        "cat"  : "Control",
+        "reversed" : "False",
+        "steps" : [2,3,4,5]
+    },
+    "Q3":{
+        "text" : "How much responsible?",
+        "cat"  : "Responsibility",
+        "reversed" : "True",
+        "steps" : [2,3,4,5]
+    }   
+
+
+}

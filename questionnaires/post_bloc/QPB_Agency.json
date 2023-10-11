@@ -1,0 +1,316 @@
+{
+    "Q1":{
+        "name" : "confidence",
+        "type" : "radiogroup",
+        "tooltips": false,
+        "title" : "How confident were you in the agent's ability to help you? (1= No confidence / 5= Full confidence)",
+        "cat"  : "Confidence",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+    "Q2":{
+        "name" : "intentionality",
+        "type" : "radiogroup",        
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "tooltips": false,
+        "title" : "To what extent did you think the agent had intentions? (0= Not at all / 5 = Largely)",
+        "cat"  : "Intentionality",
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+    "Q3":{
+        "name" : "satisfaction",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "tooltips": false,
+        "title" : "How satisfied were you with the agent's performance? (0= Not at all / 5= A lot)",
+        "cat"  : "Satisfaction",
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+
+
+    "Q4" : {
+        "type": "radiogroup",
+        "name": "attentioncheck",
+        "visible": true,
+        "tooltips": false,
+        "title": "How did you (please select 1 for this question to show that you are paying attention)", 
+        "steps" : [2],
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ]
+       },
+
+
+    "Q5":{
+        "name" : "usability",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "tooltips": false,
+        "title" : "How helpful did you find the agent? (0= Not at all / 5= A lot)",
+        "cat"  : "Usability",
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+
+
+    "Q7":{
+        "name" : "willingcoop",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "tooltips": false,
+        "title" : "How willing were you to collaborate with the agent? (0= Not at all / 5 = Totally)",
+        "cat"  : "WillingtoCooperate",
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+
+
+    "Q6" : {
+        "type": "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "name": "attentioncheck2",
+        "tooltips": false,
+        "visible": true,
+        "title": "How did you (please select 1 for this question to show that you are paying attention)", 
+        "steps" : [4]
+       },
+
+    "Q8":{
+        "name" : "Effort",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "tooltips": false,
+        "title" : "How much effort did you have to put into completing the games? (0= No effort at all / 5 = A maximal amount of effort)",
+        "cat"  : "Effort",
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+    "Q9":{
+        "name" : "trust",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }       
+        ],
+        "tooltips": false,
+        "title" : "Did you trust the agent to do the right thing at the right time? (0= Not at all / 5 = Totally)",
+        "cat"  : "Trust",
+        "reversed" : "False",
+        "steps" : [1,2,3,4]
+    },
+
+    "Q10" : {
+        "type": "comment",
+        "name": "quality_experience",
+        "visible": true,
+        "title": "Did the whole experience go well (no bugs, etc.) ?  Do you have any specific comments?", 
+        "steps" : [4]
+       },
+    
+    "Q11" : {
+        "type": "comment",
+        "name": "end_training_comment",
+        "visible": true,
+        "title": "Now you just finished the training phase. Do you have any comment before starting the real experiment?", 
+        "steps" : [0]
+       }
+
+    
+
+}

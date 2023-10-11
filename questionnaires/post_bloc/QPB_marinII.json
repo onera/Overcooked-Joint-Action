@@ -1,0 +1,88 @@
+{
+    "Q1":{
+        "name" : "trust",
+        "type" : "nouislider",
+        "tooltips": false,
+        "start": 0,
+        "title" : "How much do you agree with this sentence ? : I trusted the robot to do the right thing at the right time (0= Fully disagree / 100= Fully agree)",
+        "cat"  : "trust",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q2":{
+        "name" : "fluency",
+        "type" : "nouislider",
+        "tooltips": false,
+        "start": 0,
+        "title" : "How much do you agree with this sentence ? : The human-robot team worked fluently together (0= Fully disagree / 100= Fully agree)",
+        "cat"  : "fluency",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q3":{
+        "name" : "satisfaction",
+        "type" : "nouislider",
+        "tooltips": false,
+        "start": 0,
+        "title" : "How satisfied were you with the agent's performance? (0= Not at all / 100= A lot)",
+        "cat"  : "satisfaction",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q4":{
+        "name" : "usability",
+        "type" : "nouislider",
+        "start": 0,
+        "tooltips": false,
+        "title" : "How helpful did you find the agent? (0= Not at all / 100= A lot)",
+        "cat"  : "Usability",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q5":{
+        "name" : "willingcoop",
+        "type" : "nouislider",
+        "tooltips": false,
+        "start": 0,
+        "title" : "How much do you agree with this sentence ? : My actions were directed towards the best possible fluency with the agent (0= Fully disagree / 100= Fully agree)",
+        "cat"  : "WillingtoCooperate",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q6":{
+        "name" : "acceptability",
+        "type" : "nouislider",
+        "tooltips": false,
+        "start": 0,
+        "title" : "How much do you agree with this sentence ? : I will reuse this agent on the same task",
+        "cat"  : "acceptability",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q7":{
+        "name" : "agent_contrib",
+        "type" : "nouislider",
+        "tooltips": false,
+        "start": 0,
+        "title" : "What part of the job is accomplished by the agent ? (0= 0% / 100= 100%)",
+        "cat"  : "acceptability",
+        "reversed" : "False",
+        "steps" : [1,2,3,4,5]
+    },
+    "Q8" : {
+        "type": "comment",
+        "name": "quality_experience",
+        "visible": true,
+        "title": "Did the whole experience go well (no bugs, etc.) ?  Do you have any specific comments?", 
+        "steps" : [3]
+       },
+    
+    "Q9" : {
+        "type": "comment",
+        "name": "end_training_comment",
+        "visible": true,
+        "title": "Now you just finish the training phase. Do you have any comment before starting the core of the study ?", 
+        "steps" : [0]
+       }
+
+}

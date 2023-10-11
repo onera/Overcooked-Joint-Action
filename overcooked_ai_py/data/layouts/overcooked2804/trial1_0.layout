@@ -1,0 +1,26 @@
+{
+	"grid":  """XSXXDXX
+				X     X
+				X     X
+				X 12  T
+				X     X
+				O     X
+				XXXPXXX""",
+	"start_bonus_order": [],
+	"start_all_orders": [
+		{'ingredients': ['onion', 'onion', 'onion']}, 
+		{'ingredients': ['tomato', 'tomato', 'tomato']}, 
+		{'ingredients': ['tomato']},
+		{'ingredients': ['onion']}, 
+		{'ingredients': ['onion', 'tomato']}
+	],
+	"counter_drop":[(2,6),(4,6),(5,6)],
+    "counter_pickup":[(2,6),(4,6),(5,6)],
+    "counter_goals":[(2,6),(4,6),(5,6)],
+	"intentions_sharing": False,
+	"onion_value" : 3,
+    "tomato_value" : 2,
+    "onion_time" : 9,
+    "tomato_time" : 6,
+	"rew_shaping_params": None,
+}

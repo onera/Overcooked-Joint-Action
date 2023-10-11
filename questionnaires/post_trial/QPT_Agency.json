@@ -1,0 +1,66 @@
+{
+"Q1":{
+        "name" : "control",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "steps" : [0,1,2,3,4,5,6,7,8,9],
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }
+        ],
+        "tooltips": false,
+        "title" : "How much did you feel in control during the game? (1 = Not at all in control / 5 = Extremely in control)",
+        "cat"  : "Control",
+        "reversed" : "False"
+    },
+    "Q2":{
+        "name" : "responsability",
+        "type" : "radiogroup",
+        "steps" : [0,1,2,3,4,5,6,7,8,9],
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "1"
+            },
+            {
+             "value": "1",
+             "text": "2"
+            },
+            {
+             "value": "2",
+             "text": "3"
+            },
+            {
+             "value": "3",
+             "text": "4"
+            },
+            {
+            "value": "4",
+            "text": "5"
+            }
+        ],
+        "tooltips": false,
+        "title" : "How much do you feel responsible to have caused this result? (1 = Not at all responsible / 5 = Extremely responsible)",
+        "cat"  : "Responsability",
+        "reversed" : "False"
+    }
+}

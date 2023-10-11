@@ -1,0 +1,50 @@
+{
+    "Q1":{
+        "name": "confidence",
+        "title" : "How much confident?",
+        "cat"  : "Confidence",
+        "type" : "nouislider",
+        "tooltips": false,
+        "reversed" : "False",
+        "steps" : [0,1,2,3,4,5]
+    },
+    "Q2":{
+        "name" : "control",
+        "title" : "How much control ?",
+        "cat"  : "Control",
+        "reversed" : "False",
+        "type" : "radiogroup",
+        "colCount" : 5,
+        "choices": [
+            {
+             "value": "0",
+             "text": "strongly disagree"
+            },
+            {
+             "value": "1",
+             "text": "disagree"
+            },
+            {
+             "value": "2",
+             "text": "neutral"
+            },
+            {
+             "value": "3",
+             "text": "agree"
+            },
+            {
+             "value": "4",
+             "text": "strongly agree"
+            }
+        ],
+        "steps" : [0,1,2,3,4,5]
+    },
+    "Q3":{
+        "name": "reponsibility",
+        "title" : "How much responsible?",
+        "cat"  : "Responsibility",
+        "type" : "nouislider",
+        "reversed" : "True",
+        "steps" : [1,2,3,4,5]
+    }   
+}

@@ -1,0 +1,239 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+  <!-- Bootstrap CSS -->
+  <link href="static/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    img.center {
+      display: block;
+      margin: 0 auto;
+    }
+
+    table,
+    td,
+    th {
+      border: 1px solid #ddd;
+      text-align: left;
+    }
+
+    table {
+      border-collapse: collapse;
+      width: 100%;
+    }
+
+    th,
+    td {
+      padding: 15px;
+    }
+
+    tr:nth-child(even) {
+      background-color: #f2f2f2;
+    }
+  </style>
+
+  <title>Instructions</title>
+  <link rel="Favicon" href="static/favicon.ico" />
+
+  <script src="static/lib/jquery-min.js" type="text/javascript"> </script>
+  <script type="module" src="static/lib/js.cookie.min.js"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"
+    integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1"
+    crossorigin="anonymous"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"
+    integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM"
+    crossorigin="anonymous"></script>
+</head>
+
+<body>
+  <div class="col-lg-8 mx-auto p-3 py-md-5">
+    <header class="d-flex align-items-center pb-3 mb-5 border-bottom">
+      <div class="container">
+        <div class="row">
+          <div class="col-md">
+            <img src="static/images/LPL.jpg" class="custom-logo" alt="Laboratoire Parole et Langage" height="90">
+          </div>
+          <div class="col-md">
+            <span class="fs-2">Overcooked Experiment</span>
+          </div>
+          <div class="col-md">
+            <img src="static/images/ONERA.png" class="custom-logo" alt="ONERA, the French Aerospace Lab" , height=90>
+          </div>
+        </div>
+      </div>
+    </header>
+    <div class="container">
+      <p>
+        Hello! In this task, you will be playing a
+        cooking game. You will play one of two chefs
+        in a restaurant that serves various soups.
+      </p>
+
+      <br>
+      <hr>
+      <br>
+
+      <h3 class="text-center">Layouts</h3>
+      <p>
+        This is what one level of the game looks like:
+      </p>
+      <img class="center" src="static/images/training0_recipe.png" style="width:500px">
+      <p>
+        There are a number of objects in the game, labeled here:
+      </p>
+      <img class="center" src="static/images/training0-annotated_recipe.png" style="width:800px">
+
+      <br>
+      <hr>
+      <br>
+
+      <h3 class="text-center">Movement and interactions</h3>
+      <img class="center" src="static/images/space-arrows.png" style="width:250px">
+      <p>
+        You can move up, down, left, and right using
+        the <b>arrow keys</b>, and interact with objects
+        using the <b>spacebar</b>.
+      </p>
+      <p>
+        You can interact with objects by facing them and pressing
+        <b>spacebar</b>. Here are some examples:
+      <ul>
+        <li>You can pick up ingredients (onions or tomatoes) by facing
+          the ingredient area and pressing <b>spacebar</b>.</li>
+        <li>If you are holding an ingredient, are facing an empty counter,
+          and press <b>spacebar</b>, you put the ingredient on the counter.</li>
+        <li>If you are holding an ingredient, are facing a pot that is not full,
+          and press <b>spacebar</b>, you will put the ingredient in the pot.</li>
+        <li>If you are facing a pot that is non-empty, are currently holding nothing, and
+          and press <b>spacebar</b>, you will begin cooking a soup.</li>
+      </ul>
+      </p>
+
+      <br>
+      <br>
+      <p>
+        Note that as you and your partner are moving around the kitchen
+        you <u><b>cannot occupy the same location</b></u>.
+      </p>
+      <br>
+      <hr>
+      <br>
+
+      <h3 class="text-center">Cooking</h3>
+      <img class="center" src="static/images/soup.png" style="width:250px">
+      <p>
+        Once an ingredient is in the pot, you can begin cooking a soup by pressing
+        <b>spacebar</b> as noted above. You can place up to 3 ingredients in a pot
+        before cooking.
+      </p>
+      <p>
+        When a soup begins cooking, you'll notice a red number appear over the pot to
+        denote the cook time. This number counts upward until the soup is done. Soup
+        cook time is determined its ingredients; every onion adds {{ current_user.config["onion_time"]}} and
+        every tomato adds {{ current_user.config["tomato_time"] }} to the cook time.
+      </p>
+
+      <br>
+      <hr>
+      <br>
+
+      <h3 class="text-center">Serving</h3>
+      <img class="center" src="static/images/serving-counter_recipe.png" style="width:800px">
+      <p>
+        Once the soup is in a bowl, you can serve it by bringing it to
+        a grey serving counter.
+      </p>
+
+      <br>
+      <hr>
+      <br>
+      <h3 class="text-center">Exchanging assets with your partner</h3>
+      <img class="center" src="static/images/counter_goals.png" style="width:800px">
+      <p>
+        As it is a collaborative game, you may want/have to exchange assets (tomato, onion, dish, soups) with your partner.
+        Your partner will only consider to take the assets on the counter tiles with the blue arrows. 
+        If you want to keep something for yourself, you may drop it on a counter tile without arrows. 
+      </p>
+
+      <br>
+      <hr>
+      <br>
+      <h3 class="text-center">Soups</h3>
+      <p>
+        There are 9 possible soup recipes that can be created from combinations of tomatoes
+        and onions, each with its own icon. The recipe icons and the corresponding ingredients are
+        listed below
+      </p>
+      <table>
+        <tr>
+          <th>Ingredients</th>
+          <th>Icon</th>
+          <th>Cook Time</th>
+        </tr>
+        {% for num_tomatoes in range(current_user.config["max_num_ingredients"] ) %}
+        {% for num_onions in range(current_user.config["max_num_ingredients"] ) %}
+        {% if num_tomatoes + num_onions > 0 and num_onions + num_tomatoes <= current_user.config["max_num_ingredients"] %} <tr>
+          <td>{{ num_onions ~ " Onion" if num_onions }} {{ num_tomatoes ~ " Tomato" if num_tomatoes }}</td>
+          <td><img src="{{ " static/assets/new_sprites/soup_done_tomato_" ~ num_tomatoes ~ "_onion_" ~ num_onions
+              ~ ".png" }}" style="width:75px;background-color: #e6b453;"></td>
+          <td>{{ current_user.config["onion_time"] * num_onions + current_user.config["tomato_time"] * num_tomatoes }}</td>
+          </tr>
+          {% endif %}
+          {% endfor %}
+          {% endfor %}
+
+      </table>
+
+      <br>
+      <hr>
+      <br>
+
+      <h3 class="text-center">Your Goal</h3>
+      <p>
+
+        For each mission, you will have a list of recipes to make.
+        The goal of the game is to achieve all these recipes in the shortest possible time.
+
+        The <b>All Orders</b> list shows which recipes you have to realize for the mission. 
+        This is important because any soup served that is not on this list will not 
+        be counted and will just waste your time. 
+
+      </p>
+
+
+      When a soup is served at the serving counter, it is automatically validated, and disapear from the 
+      <b>All Orders</b> list of the recipes you have to realize during the mission.
+
+      <b>Your goal</b> is to make all the recipes in the "All Orders" list <b>AS FAST AS POSSIBLE</b>.
+
+      <img class="center" src="static/images/info-panel_recipe.png" style="width:400px">
+
+      <br>
+      <hr>
+      <br>
+      {% if is_explained %}
+      <h3 class="text-center">Layouts</h3>
+      <p>
+        During the experiment, you will sometimes have to interact with agents sharing with you informations about their
+        actions.
+        Here are precised the supplementary informations you have with these agents:
+      </p>
+      <img class="center" src="static/images/explained_legend_recipe.png" style="width:800px">
+      <br>
+      <hr>
+      <br>
+      <p>
+      {% endif %}
+
+      <h4 class="text-center"><a href="./tutorial">Next</a></h4>
+      <br>
+      <hr>
+      <br>
+    </div>
+  </div>
+</body>
+
+</html>

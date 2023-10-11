@@ -1,0 +1,510 @@
+{
+    "logfile" : "app.log",
+    "layouts" : ["cramped_room", "cramped_room_tomato", "asymmetric_advantages", "coordination_ring", "forced_coordination", "counter_circuit", "cramped_corridor", "marshmallow_experiment", "long_cook_time", "forced_coordination_tomato", "asymmetric_advantages_tomato", "marshmallow_experiment_coordination", "pipeline", "you_shall_not_pass", "tutorial_3"],
+    "MAX_GAMES" : 10,
+    "MAX_GAME_LENGTH" : 500,
+    "AGENT_DIR" : "./static/assets/agents",
+    "MAX_FPS" : 10,
+    "planning_design" : {
+        "layouts" : ["trial0_0", "trial0_1", "trial0_2", "trial0_3", "trial0_4", "trial0_5", "trial0_6", "trial0_7", "trial0_8", "trial0_9", "trial1_0", "trial1_1", "trial1_2"] 
+    },
+    "overcooked_test_recipe_mechanic" : {
+        "mechanic" : "recipe",
+        "layouts_dir" : "./overcooked_ai_py/data/layouts/overcooked2804",
+        "show_counter_drop" : true,
+        "show_trial_time" : true,
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=7317FC6A",
+        "researcher" : {
+            "name": "Marin Le Guillou",
+            "email": "marin.le_guillou@onera.fr",
+            "university" : "Aix-Marseille University",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Laurent Prévot",
+            "email": "laurent.prevot@univ-amu.fr",
+            "institution" : "Laboratoire Parole Language (LPL)"
+        },
+        "gameTime" : 8,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {"0" : "U", "1":"E", "2":"U","3":"E"},
+        "blocs" : {
+            "0": ["trial0_0", "trial0_1", "trial0_2"],
+            "1": ["trial1_0", "trial1_1", "trial1_2"],
+            "2": ["trial2_0", "trial2_1", "trial2_2"],
+            "3": ["trial3_0", "trial3_1", "trial3_2"]
+        },
+        "shuffle_trials" : true,
+        "questionnaire_post_bloc":"QPB0909_test.json",
+        "questionnaire_post_trial" : "QPT0909_test.json",
+        "qpt_length" : 10,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+    "overcooked_SOAVersionUE" : {
+        "mechanic" : "recipe",
+        "layouts_dir" : "./overcooked_ai_py/data/layouts/overcookedSOA/",
+        "agency" : true,
+        "show_trial_time" : true,
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CJ8ACREN",
+        "researcher" : {
+            "name": "Marine Pagliari",
+            "email": "marine.pagliari@ens.fr",
+            "university" : "Ecole Normale Superieure (ENS/PSL) - Paris",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Valerian Chambon",
+            "email": "valerian.chambon@gmail.com",
+            "institution" : "Institut Jean Nicod (ENS)"
+        },
+        "gameTime" : 100,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {"0" : "U", "1":"E", "2":"U","3":"E", "4":"U", "5":"E", "6":"U", "7":"E", "8":"U", "9":"E"},
+        "blocs" : {
+            "0": ["coord_map2_1", "recipe_trial0_0"],
+            "1": ["coord_map2_2", "recipe_trial0_4"],
+
+            "2": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"],
+            "3": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],
+            "4": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "5": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"],
+
+            "6": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],  
+            "7": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "8": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"],
+            "9": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"]
+        },
+        "shuffle_trials" : true,
+        "questionnaire_post_bloc":"QPB_Agency.json",
+        "questionnaire_post_trial" : "QPT_Agency.json",
+        "qpt_length" : 20,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+    "overcooked_SOAVersionEU" : {
+        "mechanic" : "recipe",
+        "layouts_dir" : "overcooked_ai_py/data/layouts/overcookedSOA",
+        "agency" : true,
+        "show_trial_time" : true,        
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CJ8ACREN",
+        "researcher" : {
+            "name": "Marine Pagliari",
+            "email": "marine.pagliari@ens.fr",
+            "university" : "Ecole Normale Superieure - Paris",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Valerian Chambon",
+            "email": "valerian.chambon@gmail.com",
+            "institution" : "Ecole Normale Superieure - Paris"
+        },
+        "gameTime" : 100,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {"0" : "U", "1":"E", "2":"E","3":"U", "4":"E", "5":"U", "6":"E", "7":"U", "8":"E", "9":"U"},
+        "blocs" : {
+            "0": ["coord_map2_1", "recipe_trial0_0"],
+            "1": ["coord_map2_2", "recipe_trial0_4"],
+
+            "2": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"],
+            "3": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],
+            "4": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "5": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"],
+
+            "6": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],  
+            "7": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "8": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"],
+            "9": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"]
+        },
+        "shuffle_trials" : true,
+        "questionnaire_post_bloc":"QPB_Agency.json",
+        "questionnaire_post_trial" : "QPT_Agency.json",
+        "qpt_length" : 20,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+    "OVERCOOKED_SOA_LikScale_EU" : {
+        "mechanic" : "recipe",
+        "layouts_dir" : "overcooked_ai_py/data/layouts/overcookedSOA",
+        "agency" : true,
+        "show_trial_time" : true,        
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CJ8ACREN",
+        "researcher" : {
+            "name": "Marine Pagliari",
+            "email": "marine.pagliari@ens.fr",
+            "university" : "Ecole Normale Superieure - Paris",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Valerian Chambon",
+            "email": "valerian.chambon@gmail.com",
+            "institution" : "Ecole Normale Superieure - Paris"
+        },
+        "gameTime" : 120,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {
+        "0" : "U",
+        "1":{
+            "recipe_head": true,
+            "recipe_hud" : false,
+            "asset_hud" : true,
+            "motion_goal" : false
+        }, 
+        "2":{
+            "recipe_head": true,
+            "recipe_hud" : false,
+            "asset_hud" : true,
+            "motion_goal" : false
+        },
+        "3":"U", 
+        "4":{
+            "recipe_head": true,
+            "recipe_hud" : false,
+            "asset_hud" : true,
+            "motion_goal" : false
+        }, 
+        "5":"U", 
+        "6":{
+            "recipe_head": true,
+            "recipe_hud" : false,
+            "asset_hud" : true,
+            "motion_goal" : false
+        }, 
+        "7":"U", 
+        "8":{
+            "recipe_head": true,
+            "recipe_hud" : false,
+            "asset_hud" : true,
+            "motion_goal" : false
+        }, 
+        "9":"U"},
+
+        "blocs" : {
+            "0": ["coord_map2_1", "recipe_trial0_0"],
+            "1": ["coord_map2_2", "recipe_trial0_4"],
+
+            "2": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"],
+            "3": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],
+            "4": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "5": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"],
+
+            "6": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],  
+            "7": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "8": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"],
+            "9": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"]
+        },
+        "shuffle_trials" : true,
+        "questionnaire_post_bloc":"QPB_Agency.json",
+        "questionnaire_post_trial" : "QPT_Agency.json",
+        "pagify_qpt":true,
+        "qpt_length" : 60,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+    "OVERCOOKED_SOA_UNEXP_1302" : {
+        "mechanic" : "recipe",
+        "layouts_dir" : "overcooked_ai_py/data/layouts/overcookedSOA",
+        "agency" : true,
+        "show_trial_time" : true,        
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CREZFVB6",
+        "researcher" : {
+            "name": "Marine Pagliari",
+            "email": "marine.pagliari@ens.fr",
+            "university" : "Ecole Normale Superieure - Paris",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Valerian Chambon",
+            "email": "valerian.chambon@gmail.com",
+            "institution" : "Ecole Normale Superieure - Paris"
+        },
+        "gameTime" : 120,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {
+            "0" : "U",
+            "1":"U", 
+            "2":"U", 
+            "3":"U", 
+            "4":"U"},
+            "blocs" : {
+                "0": ["coord_map2_1", "recipe_trial0_0", 
+                "coord_map2_2", "recipe_trial0_4"],
+                
+                "1": ["coord_map1_0", "coord_map1_4",
+                "recipe_trial1_1", "recipe_trial1_2"],
+                "2": ["coord_map2_0", "coord_map2_4",
+                "recipe_trial2_1", "recipe_trial2_2"],
+                "3": ["coord_map3_0", "coord_map3_4",
+                "recipe_trial3_1", "recipe_trial3_2"],
+                "4": ["coord_map4_0", "coord_map4_4",
+                "recipe_trial4_1", "recipe_trial4_2"]
+    
+            },
+        "shuffle_trials" : true,
+        "questionnaire_post_bloc":"QPB_Agency.json",
+        "questionnaire_post_trial" : "QPT_Agency.json",
+        "pagify_qpt":true,
+        "qpt_length" : 60,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+    "OVERCOOKED_SOA_EXP_1302" : {
+        "mechanic" : "recipe",
+        "layouts_dir" : "overcooked_ai_py/data/layouts/overcookedSOA",
+        "agency" : true,
+        "show_trial_time" : true,        
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=C17T62R0",
+        "researcher" : {
+            "name": "Marine Pagliari",
+            "email": "marine.pagliari@ens.fr",
+            "university" : "Ecole Normale Superieure - Paris",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Valerian Chambon",
+            "email": "valerian.chambon@gmail.com",
+            "institution" : "Ecole Normale Superieure - Paris"
+        },
+        "gameTime" : 120,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {
+            "0" : {
+                "recipe_head": true,
+                "recipe_hud" : false,
+                "asset_hud" : true,
+                "motion_goal" : false
+            },
+            "1":{
+                "recipe_head": true,
+                "recipe_hud" : false,
+                "asset_hud" : true,
+                "motion_goal" : false
+            },  
+            "2":{
+                "recipe_head": true,
+                "recipe_hud" : false,
+                "asset_hud" : true,
+                "motion_goal" : false
+            }, 
+            "3":{
+                "recipe_head": true,
+                "recipe_hud" : false,
+                "asset_hud" : true,
+                "motion_goal" : false
+            },  
+            "4":{
+                "recipe_head": true,
+                "recipe_hud" : false,
+                "asset_hud" : true,
+                "motion_goal" : false
+            }},
+        "blocs" : {
+            "0": ["coord_map2_1", "recipe_trial0_0", 
+            "coord_map2_2", "recipe_trial0_4"],
+
+            "1": ["coord_map1_0", "coord_map1_4",
+            "recipe_trial1_1", "recipe_trial1_2"],
+            "2": ["coord_map2_0", "coord_map2_4",
+            "recipe_trial2_1", "recipe_trial2_2"],
+            "3": ["coord_map3_0", "coord_map3_4",
+            "recipe_trial3_1", "recipe_trial3_2"],
+            "4": ["coord_map4_0", "coord_map4_4",
+            "recipe_trial4_1", "recipe_trial4_2"]
+        },
+        "shuffle_trials" : true,
+        "questionnaire_post_bloc":"QPB_Agency.json",
+        "questionnaire_post_trial" : "QPT_Agency.json",
+        "pagify_qpt":true,
+        "qpt_length" : 60,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+
+    "TEST_V2" : {
+        "mechanic" : "recipe",
+        "agency" : true,
+        "layouts_dir" : "overcooked_ai_py/data/layouts/overcookedSOA",
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CJ8ACREN",
+        "researcher" : {
+            "name": "Marine Pagliari",
+            "email": "marine.pagliari@ens.fr",
+            "university" : "Ecole Normale Superieure (ENS/PSL) - Paris",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Valerian Chambon",
+            "email": "valerian.chambon@gmail.com",
+            "institution" : "Institut Jean Nicod (ENS)"
+        },
+        "gameTime" : 60,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {"0" : "E", "1" : "E", "2" : "E", "3" : "E", "4" : "E"},
+        "blocs" : {
+            "0": ["coord_map0_0", "coord_map1_0", "coord_map2_0", "coord_map3_4", "coord_map4_0"],
+            "1": ["coord_map1_0", "coord_map1_1", "coord_map1_2", "coord_map1_4",
+            "recipe_trial1_0", "recipe_trial1_1", "recipe_trial1_2", "recipe_trial1_4"],
+            "2": ["coord_map4_0", "coord_map4_1", "coord_map4_2", "coord_map4_4",
+            "recipe_trial4_0", "recipe_trial4_1", "recipe_trial4_2", "recipe_trial4_4"],
+            "3": ["coord_map3_0", "coord_map3_1", "coord_map3_2", "coord_map3_4",
+            "recipe_trial3_0", "recipe_trial3_1", "recipe_trial3_2",  "recipe_trial3_4"],
+            "4": ["coord_map0_0", "coord_map0_1", "coord_map0_2", "coord_map0_4",
+            "recipe_trial0_0", "recipe_trial0_1", "recipe_trial0_2","recipe_trial0_4"]
+        },
+        "shuffle_trials" : false,
+        "questionnaire_post_bloc":"QPB_Agency.json",
+        "questionnaire_post_trial" : "QPT_Agency.json",
+        "qpt_length" : 15,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+    "marin_II_constrained_U" :{
+        "mechanic" : "recipe",
+        "show_counter_drop" : true,
+        "layouts_dir" : "overcooked_ai_py/data/layouts/marin_II_constrained",
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CFTFPBYQ",
+        "researcher" : {
+            "name": "Marin Le Guillou",
+            "email": "marin.le_guillou@onera.fr",
+            "university" : "Aix-Marseille University",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Laurent Prévot",
+            "email": "laurent.prevot@univ-amu.fr",
+            "institution" : "Laboratoire Parole Language (LPL)"
+        },
+        "gameTime" : 300,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {"0" : "U", "1":"U", "2":"U","3":"U", "4":"U", "5":"U", "6" : "U", "7":"U", "8":"U","9":"U"},
+        "blocs_former":{"0": ["marinII4"], "1": ["marinII0", "marinII1", "marinII2", "marinII3"], "2": ["marinII090", "marinII190", "marinII290", "marinII390"], "3": ["marinII0180", "marinII1180", "marinII2180", "marinII3180"], "4": ["marinII0270", "marinII1270", "marinII2270", "marinII3270"], "5": ["marinII0T", "marinII1T", "marinII2T", "marinII3T"]},
+        "blocs":{"0": ["marinII4"], "1": ["marinII0", "marinII1", "marinII2", "marinII3"], "2": ["marinII090", "marinII190", "marinII290", "marinII390"], "3": ["marinII0180", "marinII1180", "marinII2180", "marinII3180"]},
+        "shuffle_trials" : false,
+        "questionnaire_post_bloc":"QPB_marinII.json",
+        "qpt_length" : 50,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+    "marin_II_constrained_E" :{
+        "mechanic" : "recipe",
+        "fps" : 20,
+        "show_counter_drop" : true,
+        "layouts_dir" : "overcooked_ai_py/data/layouts/marin_II_constrained",
+        "completion_link" : "https://app.prolific.co/submissions/complete?cc=CFTFPBYQ",
+        "researcher" : {
+            "name": "Marin Le Guillou",
+            "email": "marin.le_guillou@onera.fr",
+            "university" : "Aix-Marseille University",
+            "institution" : "ONERA, the French Aerospace Lab, DTIS department"
+        },
+        "supervisor" : {
+            "name": "Laurent Prévot",
+            "email": "laurent.prevot@univ-amu.fr",
+            "institution" : "Laboratoire Parole Language (LPL)"
+        },
+        "gameTime" : 300,
+        "playerZero" : "Planning",
+        "agent" : "Greedy",
+        "conditions" : {"1" : "E", "0":"E", "2":"E","3":"E", "4":"E", "5":"E"},
+        "blocs_former":{"0": ["marinII4"], "1": ["marinII0", "marinII1", "marinII2", "marinII3"], "2": ["marinII090", "marinII190", "marinII290", "marinII390"], "3": ["marinII0180", "marinII1180", "marinII2180", "marinII3180"], "4": ["marinII0270", "marinII1270", "marinII2270", "marinII3270"], "5": ["marinII0T", "marinII1T", "marinII2T", "marinII3T"]},
+        "blocs":{"0": ["marinII4"], "1": ["marinII0", "marinII1", "marinII2", "marinII3"], "2": ["marinII090", "marinII190", "marinII290", "marinII390"], "3": ["marinII0180", "marinII1180", "marinII2180", "marinII3180"]},
+        "shuffle_trials" : false,
+        "questionnaire_post_bloc":"QPB_marinII.json",
+        "qpt_length" : 50,
+        "tomato_value" : 2,
+        "onion_value" : 3,
+        "onion_time" : 9,
+        "tomato_time" : 6,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    },
+
+    "tutorial" : {
+        "tutorialParams" : {
+            "layouts" : ["tutorial_2", "tutorial_1", "tutorial_0"],
+            "playerZero" : "human",
+            "playerOne" : "TutorialAI",
+            "phaseTwoScore" : 8
+        },
+        "mechanic" : "recipe",
+        "tomato_value" : 2,
+        "onion_value" : 3
+    },
+    "layout_globals" : {
+        "onion_value" : 21,
+        "tomato_value" : 13,
+        "onion_time" : 15,
+        "tomato_time" : 7,
+        "order_bonus" : 2,
+        "max_num_ingredients" : 3
+    }
+}
