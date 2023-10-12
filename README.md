@@ -36,4 +36,4 @@ If your agent uses the Medium Leval Action Manager and the Motion planner, you n
 ## License
 
 MIT License
-Copyright (c) 2023 Marin LE GUILLOU
+Copyright (c) ONERA
