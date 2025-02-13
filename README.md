@@ -20,7 +20,11 @@ Developed as part of a thesis using a software base developed by the BAIR team (
 
 
 ## Run an experiment
-- Access http://localhost:5000/<config_key>
+- Access http://localhost:5000/?PROLIFIC_PID=<uid>&CONFIG=<config_id>
+Exemple : http://localhost:5000/?PROLIFIC_PID=1&CONFIG=overcooked_SOAVersionUE
+
+## Run a test
+- Access http://localhost:5000/?TEST_UID=<uid>&CONFIG=<config_id>
 
 ## Development
 ### Configurations
