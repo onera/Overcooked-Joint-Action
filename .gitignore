@@ -141,7 +141,6 @@ dmypy.json
 /overcooked_ai_py/agents/old/
 /overcooked_ai_py/mdp/old/
 
-overcooked_ai_py/data/planners/*
 db.sqlite
 .idea/*
 .vscode/*
